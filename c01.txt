@@ -1,0 +1,12 @@
+01. 
+
+!=   +    <=       >>             getClass       toDouble   toString   
+##   -    <init>   >>>            hashCode       toFloat    unary_+    
+%    /    ==       ^              isInstanceOf   toInt      unary_-    
+&    <    >        asInstanceOf   toByte         toLong     unary_~    
+*    <<   >=       equals         toChar         toShort    |
+
+02. 
+
+res11: Double = 4.440892098500626E-16
+
