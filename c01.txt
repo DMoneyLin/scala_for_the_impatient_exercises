@@ -10,3 +10,85 @@
 
 res11: Double = 4.440892098500626E-16
 
+03. 
+
+var
+
+04.
+
+res0: String = crazycrazycrazy
+
+scala.collection.immutable.StringOps:
+http://www.scala-lang.org/api/current/index.html#scala.collection.immutable.StringOps
+
+05.
+
+Returns the max of two ints.
+
+http://www.scala-lang.org/api/current/#scala.Int
+
+def max(that: Int): Int
+Returns this if this > that or that otherwise.
+
+06.
+
+Explicit: 
+
+scala> BigInt(2).pow(1024)
+res20: scala.math.BigInt = 179769313486231590772930519078902473361797697894230657273430081157732675805500963132708477322407536021120113879871393357658789768814416622492847430639474124377767893424865485276302219601246094119453082952085005768838150682342462881473913110540827237163350510684586298239947245938479716304835356329624224137216
+
+Implicit:
+
+scala> val x: BigInt = 2
+x: BigInt = 2
+
+scala> x.pow(1024)
+res21: scala.math.BigInt = 179769313486231590772930519078902473361797697894230657273430081157732675805500963132708477322407536021120113879871393357658789768814416622492847430639474124377767893424865485276302219601246094119453082952085005768838150682342462881473913110540827237163350510684586298239947245938479716304835356329624224137216
+
+07.
+
+scala> probablePrime(100, Random)
+<console>:11: error: not found: value probablePrime
+       probablePrime(100, Random)
+       ^
+<console>:11: error: not found: value Random
+       probablePrime(100, Random)
+                          ^
+
+scala> import BigInt.probablePrime
+import BigInt.probablePrime
+
+scala> import scala.util.Random
+import scala.util.Random
+
+scala> probablePrime(100, Random)
+res1: scala.math.BigInt = 877937606079282249131067501007
+
+08.
+
+scala> probablePrime(100, Random).toString(36)
+res2: String = 2hmbbg3079zhftxoa0i5
+
+09.
+
+scala> "hello"(0)
+res10: Char = h
+
+scala> "hello".last
+res11: Char = o
+
+10.
+
+scala> myString.take(2)
+res16: String = He
+
+scala> myString.drop(2)
+res17: String = llo, sailor!
+
+scala> myString.takeRight(2)
+res18: String = r!
+
+scala> myString.dropRight(2)
+res19: String = Hello, sailo
+
+Don't need to know string length and don't need to worry about java.lang.StringIndexOutOfBoundsException.
