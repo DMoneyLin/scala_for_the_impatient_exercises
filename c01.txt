@@ -1,5 +1,7 @@
 01. 
 
+scala> 42.
+
 !=   +    <=       >>             getClass       toDouble   toString   
 ##   -    <init>   >>>            hashCode       toFloat    unary_+    
 %    /    ==       ^              isInstanceOf   toInt      unary_-    
