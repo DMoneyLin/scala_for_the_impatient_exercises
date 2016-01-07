@@ -1,0 +1,23 @@
+1. In the Scala REPL type 3 followed by the tab key.
+What methods can be applied?
+3D Objects
+2. println(3 - math.pow(math.sqrt(3), 2))
+3.var but someone had val
+4.String = crazycrazycrazy - scala.collecion.immutable.StringOps
+5. Returns highest value between the two. Returns Int = 10. Int Concrete Value Members
+6. BigInt(2).pow(1024)
+7.import BigInt.probablePrime, util.Random
+8.println(probablePrime(100, Random) toString 36)
+9.println("Hello"(0)) println("Hello".last)
+10.
+"Hello" take 3
+res26: String = Hel
+"Hello" take right 3
+res27 String = llo
+"Hello" dropRight 3
+res28 String = He
+"Hello".substring(1,3)
+res30 String = el
+
+Less code to get what parts of a string you want.
+Limitations to each possibly...?
